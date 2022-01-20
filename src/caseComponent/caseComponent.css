@@ -1,0 +1,17 @@
+.link {
+  color: rgb(30, 139, 16);
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.case {
+  background-color: rgba(128, 128, 128, 0.452);
+  padding-bottom: 3rem;
+}
