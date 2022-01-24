@@ -1,13 +1,13 @@
 import React from 'react';
-import test from './img-amlak.png';
+import srcImg from './coverImage1.jpg';
 import './caseComponent.css';
 const CaseComponent = () => {
   return (
   <div className='case'>
       <div className="img-con">
-          <img src={test} alt="" />
+          <img  src={srcImg} alt="" />
       </div>
-      <a className='link' href="https://ian-0000.hostman.site/">Visiting virtual</a>
+      <a className='link' href="https://i-0003.hostman.site/">بازدید آنلاین</a>
   </div>
   );
 };

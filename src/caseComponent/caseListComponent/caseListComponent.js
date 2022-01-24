@@ -1,4 +1,5 @@
 import React from 'react';
+import Case2 from '../case2';
 import CaseComponent from '../caseComponent';
 import './caseListStyle.css'
 
@@ -8,8 +9,7 @@ const CaseListComponent = () => {
   <div className='case-list'>
       <h2>MelkBinOnline</h2>
       <CaseComponent/>
-      <CaseComponent/>
-      <CaseComponent/>
+      <Case2/>
   </div>);
 };
 
