@@ -1,5 +1,5 @@
 import React from 'react';
-import srcImg from './coverImage1.jpg';
+import srcImg from './coverImage1-min.jpg';
 import './caseComponent.css';
 const CaseComponent = () => {
   return (
