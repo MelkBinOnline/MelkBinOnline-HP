@@ -7,7 +7,7 @@ const CaseComponent = () => {
       <div className="img-con">
           <img  src={srcImg} alt="img" />
       </div>
-      <a className='link' href="https://i-0003.hostman.site/">بازدید آنلاین</a>
+      <a className='link' href="https://test-m-page2.hostman.site/i-2/i-2.htm">بازدید آنلاین</a>
   </div>
   );
 };
