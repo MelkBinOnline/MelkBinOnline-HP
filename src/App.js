@@ -1,5 +1,5 @@
 import './App.css';
-import CaseListComponent from './caseComponent/caseListComponent/caseListComponent';
+import CaseListComponent from './caseComponent/caseListComponent';
 
 
 function App() {
