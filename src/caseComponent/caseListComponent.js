@@ -40,7 +40,7 @@ const CaseListComponent = () => {
            return(
              <CASE 
              key={i.id} 
-             img={i.cover} 
+             cover={i.cover} 
              url={i.url}/>
            )
          })

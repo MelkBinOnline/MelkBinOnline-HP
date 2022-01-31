@@ -1,11 +1,11 @@
 import './caseComponent.css';
 
 const CASE = (props) => {
-  const {img,url} = props;
+  const {cover,url} = props;
   return <div>
       <div className='case'>
       <div className="img-con">
-          <img  src={img} alt="img" />
+          <img  src={cover} alt="img" />
       </div>
       <a href={url}>online</a>
       
