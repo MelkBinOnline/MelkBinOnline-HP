@@ -1,11 +1,12 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
+
 const Header = () => {
   return (
-      <div class="pos-f-t test-header">
+      <header class="pos-f-t header">
         <nav class="navbar navbar-dark bg-dark ">
-          <h1 className='LOGO'>MelkBinOnline</h1>
-          <button style={{border:'none',marginLeft:'auto',marginRight:'1rem',outline:'none'}} class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <h1 className='LOGO'><a href="#HOME">MelkBinOnline</a></h1>
+          <button  class="navbar-toggler personal" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </nav>
@@ -18,7 +19,7 @@ const Header = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </header>
   )
 };
 

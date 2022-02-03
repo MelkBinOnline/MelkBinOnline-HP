@@ -1,0 +1,20 @@
+.toggle {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.toggle.active {
+  height: 75px;
+}

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: TOON;
+  src: url(./font/Toona.woff2) format("woff2"),
+    url(./font/Toona.eot) format("eot");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+.header {
+  width: 100vw;
+  padding-left: 1rem;
+  background: #343a40;
+  position: fixed;
+}
+
+.list {
+  color: white;
+  display: grid;
+  row-gap: 0.5rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.list li:hover {
+  color: rgb(168, 168, 168);
+  cursor: pointer;
+}
+
+.my-btn {
+  border: 5px solid red;
+}
+
+.LOGO {
+  color: white;
+  margin: 0;
+  a {
+    color: #ffff;
+    font-family: "TOON";
+    text-decoration: none;
+    font-size: 3rem;
+    display: block;
+    letter-spacing: 1px;
+  }
+}
+
+/* 1.75rem */
+
+.navbar-toggler.personal {
+  outline: none;
+  border: none;
+}
