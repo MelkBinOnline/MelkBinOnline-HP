@@ -59,6 +59,7 @@ const CaseListComponent = () => {
 
   return (
   <div className='case-list'>
+    <h4>جدید ترین ها</h4>
        {
          data.case.map((i) => {
            return(

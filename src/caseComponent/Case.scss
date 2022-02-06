@@ -37,13 +37,20 @@ img {
     &__btn {
       padding: 0.75rem 0;
       color: #fff;
+      text-decoration: none;
     }
 
     &__btn.call {
       background: cadetblue;
+      &:hover {
+        opacity: 0.6;
+      }
     }
     &__btn.visit {
       background: brown;
+      &:hover {
+        opacity: 0.6;
+      }
     }
   }
 }
