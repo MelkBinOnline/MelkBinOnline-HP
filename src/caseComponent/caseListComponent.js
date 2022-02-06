@@ -14,7 +14,10 @@ const data = {
       url: "https://test-m-page2.hostman.site/i-3/i-3.htm",
       type:"زمین",
       area:"2400m",
-      usage:"بافت"
+      usage:"بافت",
+      province:"البرز",
+      city:"نظرآباد",
+      loc:"حومه"
     },
     {
       id : 'i_002',
@@ -22,7 +25,10 @@ const data = {
       url: "https://test-m-page2.hostman.site/i-2/i-2.htm",
       type:"زمین و سوله",
       area:"1500m",
-      usage:"صنعتی"
+      usage:"صنعتی",
+      province:"البرز",
+      city:"هشتگرد",
+      loc:"شهرک صنعتی هشتگرد"
     },
     {
       id : 'i_001',
@@ -30,7 +36,10 @@ const data = {
       url: "https://test-m-page2.hostman.site/i-1/i-1.htm",
       type:"زمین و سوله",
       area:"2000m",
-      usage:"صنعتی"
+      usage:"صنعتی",
+      province:"البرز",
+      city:"نظرآباد",
+      loc:"شهرک صنعتی سپهر"
     },
     {
       id : 'i_000',
@@ -38,7 +47,10 @@ const data = {
       url: "https://test-m-page2.hostman.site/i-0/i-0.htm",
       type:"مغازه",
       area:"90",
-      usage:"تجاری"
+      usage:"تجاری",
+      province:"البرز",
+      city:"نظرآباد",
+      loc:"حومه"
     }
   ]
 }
@@ -56,7 +68,10 @@ const CaseListComponent = () => {
              url={i.url}
              type={i.type}
              usage={i.usage}
-             area={i.area}/>
+             area={i.area}
+             provice={i.province}
+             city={i.city}
+             loc={i.loc}/>
            )
          })
        }
