@@ -13,9 +13,9 @@ const CASE = (props) => {
           <li className="case__intro__list--item">{type}</li>
           <li className="case__intro__list--item">{usage}</li>
           <li className="case__intro__list--item">{area}</li>
-          <li className="case__intro__loc"><span>{provice}</span> /<span>{city}</span> /<span>{loc}</span></li>
         </ul>
           <CollapseBtn/>
+          <div className="case__intro__loc"><span>{provice}</span> /<span>{city}</span> /<span>{loc}</span></div>
       </div>
       <div className="access">
         <a className='access__btn call' href="href=tel:+989337710943">تماس</a>
