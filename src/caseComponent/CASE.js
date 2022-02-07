@@ -1,8 +1,7 @@
 import CollapseBtn from '../collapseBtn/CollapseBtn';
 import './Case.scss';
 
-const CASE = (props) => {
-  const {cover,url,type,area,usage,provice,city,loc} = props;
+const CASE = ({cover,url,type,area,usage,provice,city,loc}) => {
   return (
     <section className="case">
       <div className="case__intro">

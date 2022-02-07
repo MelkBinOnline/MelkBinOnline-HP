@@ -15,7 +15,7 @@ const data = {
       type:"زمین",
       area:"2400m",
       usage:"بافت",
-      province:"البرز",
+      provice:"البرز",
       city:"نظرآباد",
       loc:"حومه"
     },
@@ -26,7 +26,7 @@ const data = {
       type:"زمین و سوله",
       area:"1500m",
       usage:"صنعتی",
-      province:"البرز",
+      provice:"البرز",
       city:"هشتگرد",
       loc:"شهرک صنعتی هشتگرد"
     },
@@ -37,7 +37,7 @@ const data = {
       type:"زمین و سوله",
       area:"2000m",
       usage:"صنعتی",
-      province:"البرز",
+      provice:"البرز",
       city:"نظرآباد",
       loc:"شهرک صنعتی سپهر"
     },
@@ -48,7 +48,7 @@ const data = {
       type:"مغازه",
       area:"90",
       usage:"تجاری",
-      province:"البرز",
+      provice:"البرز",
       city:"نظرآباد",
       loc:"حومه"
     }
@@ -63,16 +63,7 @@ const CaseListComponent = () => {
        {
          data.case.map((i) => {
            return(
-             <CASE 
-             key={i.id} 
-             cover={i.cover} 
-             url={i.url}
-             type={i.type}
-             usage={i.usage}
-             area={i.area}
-             provice={i.province}
-             city={i.city}
-             loc={i.loc}/>
+             <CASE key={i.id} {...i}/>
            )
          })
        }
